@@ -1,0 +1,88 @@
+@mixin text-style($weight, $color, $size) {
+    color: $color;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: 24px;
+}
+
+.header {
+    max-width: 1124px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 16px 87px 16px 81px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+
+    &__logo {
+        img {
+            width: 100px;
+            height: 13px;
+        }
+    }
+    
+    &__wrapper {
+        @include text-style(400, #1D1D1D, 16px);
+        
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        img {
+            width: 19px;
+            height: 22px;
+            margin-left: 10px;
+        }
+    }
+
+    &__inform {
+        @include text-style(400, #1D1D1D, 16px);
+        
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    &__border {
+        border: 1px solid #E0E0E0;
+        border-radius: 2px;
+        padding: 8px 12px;
+    }
+
+    &__input {
+        border: 1px solid #E0E0E0;
+        border-radius: 2px;
+        padding: 13px 36px;
+        background: url('./img/location.svg') 12px no-repeat;
+        width: 200px;
+    }
+    
+    &__input::placeholder {
+        @include text-style(400, #1D1D1D, 16px);
+    }
+
+    &__button {
+        @include text-style(500, #1D1D1D, 13px);
+
+        border: 1px solid #E0E0E0;
+        border-radius: 2px;
+
+        width: 80px;
+        height: 40px;
+        background: none;
+    }
+
+    &__paragraf {
+        @include text-style(300, #626262, 16px);
+    }
+
+    @media (max-width: 897px) {
+        &__inform {
+            display: none;
+        }
+    }
+}
