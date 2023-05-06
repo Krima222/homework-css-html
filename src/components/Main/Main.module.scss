@@ -34,14 +34,17 @@
 
     &__restaurants {
         @include text-style(600, #1D1D1D, 16px, 24px);
+        margin: 4px 0;
     }
 
     &__product {
         @include text-style(400, #626262, 14px, 21px);
+        margin: 4px 0;
     }
 
     &__cost {
         @include text-style(400, #1D1D1D, 13px, 21px);
+        margin: 4px 0;
     }
 
     &__inform {
