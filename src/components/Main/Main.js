@@ -36,51 +36,51 @@ export function Main() {
                 </div>
                 <div>
                     <img src={dimsum} alt="dimsun" />
-                    <h2>DimSum & Co — ЦДМ</h2>
-                    <p>₽ • Японская • Китайская • Азиатская</p>
-                    <p>40 - 50 Min</p>
+                    <h2 className={classes.main__restaurants}>DimSum & Co — ЦДМ</h2>
+                    <p className={classes.main__product}>₽ • Японская • Китайская • Азиатская</p>
+                    <p className={classes.main__cost}>40 - 50 Min</p>
                 </div>
                 <div>
                     <img src={dvij} alt="dvij" />
-                    <h2>ДвижОК — Манежная</h2>
-                    <p>₽ • Американская • Европейская</p>
-                    <p>35 - 45 Min</p>
+                    <h2 className={classes.main__restaurants}>ДвижОК — Манежная</h2>
+                    <p className={classes.main__product}>₽ • Американская • Европейская</p>
+                    <p className={classes.main__cost}>35 - 45 Min</p>
                 </div>
                 <div>
                     <img src={ny} alt="ny" />
-                    <h2>НЯ — NHA</h2>
-                    <p>₽₽ • Вьетнамская</p>
-                    <p>30 - 40 Min</p>
+                    <h2 className={classes.main__restaurants}>НЯ — NHA</h2>
+                    <p className={classes.main__product}>₽₽ • Вьетнамская</p>
+                    <p className={classes.main__cost}>30 - 40 Min</p>
                 </div>
                 <div>
                     <img src={dzi} alt="dzi" />
-                    <h2>Точка Дзы — Цветной</h2>
-                    <p>₽₽ • Вьетнамская</p>
-                    <p>40 - 50 Min</p>
+                    <h2 className={classes.main__restaurants}>Точка Дзы — Цветной</h2>
+                    <p className={classes.main__product}>₽₽ • Вьетнамская</p>
+                    <p className={classes.main__cost}>40 - 50 Min</p>
                 </div>
                 <div>
                     <img src={sinabon} alt="sinabon" />
-                    <h2>Cinnabon</h2>
-                    <p>₽ • Выпечка • Десерты • Капкейки</p>
-                    <p>25 - 35 Min</p>
+                    <h2 className={classes.main__restaurants}>Cinnabon</h2>
+                    <p className={classes.main__product}>₽ • Выпечка • Десерты • Капкейки</p>
+                    <p className={classes.main__cost}>25 - 35 Min</p>
                 </div>
                 <div>
                     <img src={pizzelove} alt="pizzellove" />
-                    <h2>PIZZELOVE</h2>
-                    <p>₽₽ • Пицца</p>
-                    <p>15 - 25 Min</p>
+                    <h2 className={classes.main__restaurants}>PIZZELOVE</h2>
+                    <p className={classes.main__product}>₽₽ • Пицца</p>
+                    <p className={classes.main__cost}>15 - 25 Min</p>
                 </div>
                 <div>
                     <img src={ziy} alt="ziy" />
-                    <h2>Zю кафе — Тверская</h2>
-                    <p>₽₽ • Японская</p>
-                    <p>25 - 35 Min</p>
+                    <h2 className={classes.main__restaurants}>Zю кафе — Тверская</h2>
+                    <p className={classes.main__product}>₽₽ • Японская</p>
+                    <p className={classes.main__cost}>25 - 35 Min</p>
                 </div>
                 <div>
                     <img src={barBQ} alt="barBQ" />
-                    <h2>Bar BQ Cafe — Манежная</h2>
-                    <p>₽₽₽ • Европейская</p>
-                    <p>30 - 40 Min</p>
+                    <h2 className={classes.main__restaurants}>Bar BQ Cafe — Манежная</h2>
+                    <p className={classes.main__product}>₽₽₽ • Европейская</p>
+                    <p className={classes.main__cost}>30 - 40 Min</p>
                 </div>
             </div>
         </div>
